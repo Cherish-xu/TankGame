@@ -1,0 +1,12 @@
+#初始化的敌军坦克数量
+initTankCount=5
+#宽度和长度
+gameWidth=600
+gameHeight=480
+
+#发子弹的策略
+tankFireStrategy=DefaultFireStrategy
+
+#碰撞检测的实现
+colliders=BulletTankCollider,BulletWallCollider,TankWallCollider,TankTankCollider
+
